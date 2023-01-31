@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Responsive portfolio</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                José
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="ri-home-smile-line"></i>Home
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="ri-medal-line"></i>Skills
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#qualification" class="nav__link">
+                            <i class="ri-book-open-line"></i>Cualidades
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">
+                            <i class="ri-briefcase-3-line"></i>Servicios
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">
+                            <i class="ri-image-line"></i>Proyectos
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="ri-chat-3-line"></i>Contacto
+                        </a>
+                    </li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__buttons">
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line"></i>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid section__border">
+                <div class="home__data grid">
+                    <h1 class="home__title">
+                        Hi, I'm José<br>
+                        FullStack Web Developer<br>
+                    </h1>
+                    <div class="home__blob grid">
+                        <div class="home__perfil">
+                            <img src="assets/img/perfil.png" alt="foto de perfil todo fachero">
+                        </div>
+                        <img src="assets/img/shape-wawes.svg" alt="" class="home__shape-wawes">
+                        <img src="assets/img/shape-circle.svg" alt="" class="home__shape-circle">
+                    </div>
+
+                    <ul class="home__social">
+                        <a href="https://ar.linkedin.com/" target="blank" class="home__social-link">
+                            <i class="ri-linkedin-box-line"></i>
+                        </a>
+
+                        <a href="https://github.com/" target="blank" class="home__social-link">
+                            <i class="ri-github-line"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/" target="blank" class="home__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                    </ul>
+                </div>
+
+                <!--==================== HOME info 1====================-->
+                <div class="home__info">
+                    <div>
+                        <h3 class="home__info-title">
+                            Biografía
+                        </h3>
+                        <p class="home__info-description">
+                            Hola soy José, FullStack Web Developer. Apasionado por los avances de la web
+                            a la hora de encontrar soluciones a los problemas del dia a dia.
+
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="home__info-title">
+                            CONTACTO
+                        </h3>
+                        <p class="home__info-description">
+                            Argentina-Neuquén<br>
+                            Dev_sj@gmail.com<br>
+                            (495) 373-0837<br>
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="home__info-title">
+                            SERVICIOS
+                        </h3>
+                        <p class="home__info-description">
+                            Website Design<br>
+                            UI/UX Design<br>
+                            Animation/Transition<br>
+                        </p>
+                    </div>
+
+                </div>
+
+                <!--==================== HOME info 2====================-->
+                <div class="home__info">
+                    <div>
+                        <h3 class="home__info-title">
+                            AÑOS DE EXPERIENCIA
+                        </h3>
+                        <p class="home__info-number">
+                            1
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="home__info-title">
+                            PROYECTOS TERMINADOS 
+                        </h3>
+                        <p class="home__info-number">
+                            1
+                        </p>
+                    </div>
+                
+                    <div>
+                        <h3 class="home__info-title">
+                            EMPRESAS 
+                        </h3>
+                        <p class="home__info-number">
+                            0
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== SKILLS 1 ====================-->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">HABILIDADES</h2>
+            <span class="section__subtitle">mis Cualidades más destacadas</span>
+
+            <div class="skills__container container grid section__border">
+                <div class="skills__content">
+                    <h3 class="skills__title">
+                        <i class="ri-braces-line"></i>Frontend and Backend
+                    </h3>
+                    <div class="skills__info">
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/html-1.svg" alt="logo html">
+                            </div>
+                            <h3 class="skills__name">
+                                HTML
+                            </h3>
+                            <span class="skills__subtitle">
+                                Intermedio
+                            </span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/css-3.svg" alt="logo css">
+                            </div>
+                            <h3 class="skills__name">
+                                CSS
+                            </h3>
+                            <span class="skills__subtitle">Avanzado</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/logo-javascript.svg" alt="logo de javascript">
+                            </div>
+                            <h3 class="skills__name">
+                                javascript
+                            </h3>
+                            <span class="skills__subtitle">
+                                Intermedio
+                            </span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/react-2.svg" alt="logo react">
+                            </div>
+                            <h3 class="skills__name">
+                                REACT
+                            </h3>
+                            <span class="skills__subtitle">Basico</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/git-icon.svg" alt="logo de git">
+                            </div>
+                            <h3 class="skills__name">
+                                GIT
+                            </h3>
+                            <span class="skills__subtitle">Intermedio</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/c--4.svg" alt="logo de c#">
+                            </div>
+                            <h3 class="skills__name">
+                                C#
+                            </h3>
+                            <span class="skills__subtitle">Intermedio</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!--==================== SKILLS 2 ====================-->
+                <div class="skills__content">
+                    <h3 class="skills__title">
+                        <i class="ri-pantone-line"></i>Web Designer
+                    </h3>
+                    <div class="skills__info">
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/figma-1.svg" alt="logo de figma">
+                            </div>
+                            <h3 class="skills__name">
+                                FIGMA
+                            </h3>
+                            <span class="skills__subtitle">Avanzado</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/sketch-2.svg" alt="logo de sketch">
+                            </div>
+                            <h3 class="skills__name">
+                                SKETCH
+                            </h3>
+                            <span class="skills__subtitle">Basic</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/Marvel-App.svg" alt="logo de marvel app">
+                            </div>
+                            <h3 class="skills__name">
+                                MARVEL APP
+                            </h3>
+                            <span class="skills__subtitle">Avanzado</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/invision.svg" alt="logo de invisionapp">
+                            </div>
+                            <h3 class="skills__name">
+                                INVISION APP
+                            </h3>
+                            <span class="skills__subtitle">Avanzado</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/adobe-photoshop-2.svg" alt="logo de adobe photoshop">
+                            </div>
+                            <h3 class="skills__name">
+                                PHOTOSHOP
+                            </h3>
+                            <span class="skills__subtitle">Intermedio</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--==================== QUALIFICATIONS ====================-->
+        <section class="qualification section" id="qualification">
+            <h2 class="section__title">Cursos y Estudios</h2>
+            <span class="section__subtitle">Roadmap de educacion y experiencias</span>
+
+            <div class="qualification__container container grid section__border">
+
+                <!--==================== QUALIFICATION 1 ====================-->
+                <div class="qualification__content">
+                    <h3 class="qualification__title">
+                        <i class="ri-edit-2-line"></i>Estudios
+                    </h3>
+                    <div class="qualification__info">
+                        <div>
+                            <h3 class="qualification__name">
+                                Master In Backend
+                            </h3>
+                            <span class="qualification__country">Argentina-Maxi Programa</span>
+                            <span class="qualification__year">2021</span>
+                        </div>
+
+                        <div>
+                            <h3 class="qualification__name">
+                                UX/UI Design
+                            </h3>
+                            <span class="qualification__country">Argentina-CoderHouse</span>
+                            <span class="qualification__year">2021</span>
+                        </div>
+
+                        <div>
+                            <h3 class="qualification__name">
+                                Computer Engineer (Junior)
+                            </h3>
+                            <span class="qualification__country">Argentina-UTN</span>
+                            <span class="qualification__year">2022</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!--==================== QUALIFICATION 2 ====================-->
+                <div class="qualification__content">
+                    <h3 class="qualification__title">
+                        <i class="ri-folder-open-line"></i>Work
+                    </h3>
+                    <div class="qualification__info">
+                        <div>
+                            <h3 class="qualification__name">
+                                Frontend
+                            </h3>
+                            <span class="qualification__country">Mercado Pago - Argentina</span>
+                            <span class="qualification__year">2022</span>
+                        </div>
+
+                        <div>
+                            <h3 class="qualification__name">
+                                Microsoft IT
+                            </h3>
+                            <span class="qualification__country">New Zealand</span>
+                            <span class="qualification__year">2023</span>
+                        </div>
+
+                        <div>
+                            <h3 class="qualification__name">
+                                Graphic Designer
+                            </h3>
+                            <span class="qualification__country">Figma - EE.UU</span>
+                            <span class="qualification__year">2022</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="assets/img/shape-circle.svg" alt="" class="qualification__img">
+        </section>
+
+        <!--==================== SERVICES ====================-->
+        <section class="services section" id="services">
+            <h2 class="section__title">Servicios</h2>
+            <span class="section__subtitle">Que ofresco</span>
+
+            <div class="services__container container grid section__border">
+                <div class="services__card">
+                    <i class="ri-code-line"></i>
+                    <h2 class="services__title">
+                        UX/UI<br>
+                        Website Design
+                    </h2>
+                    <p class="services__description">
+                        proveer la mejor calidad de diseño posible al cliente, con soporte de buenas herramientas y
+                        trabajo profesional
+                    </p>
+                    <div class="services__border"></div>
+                </div>
+
+                <div class="services__card">
+                    <i class="ri-code-s-slash-line"></i>
+                    <h2 class="services__title">
+                        Backend
+                    </h2>
+                    <p class="services__description">
+                        Contrucción, Desarrollo, integración y mantenimiento de las bases de datos
+                        para asegurar una mejor satisfacción del clinte
+                    </p>
+                    <div class="services__border"></div>
+                </div>
+            </div>
+
+        </section>
+
+        <!--==================== PROJECTS ====================-->
+        <section class="projects section" id="projects">
+            <h2 class="section__title">Proyectos</h2>
+            <span class="section__subtitle">trabajo más reciente</span>
+            <div class="container section__border">
+                <div class="proyects__container swiper">
+                    <div class="swiper-wrapper">
+                        <!--==================== PROJECT 1 ====================-->
+                        <div class="projects__content swiper-slide">
+                            <img src="assets/img/project1.jpg" alt="proyecto 1 imagen" class="projects__img">
+
+                            <div>
+                                <span class="projects__subtitle">Website</span>
+                                <h1 class="projects__title">landing page</h1>
+                                <a href="https://abya.com/gfn" target="_blank" class="projects__button">
+                                    Ver demo <i class="ri-arrow-right-line"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--==================== PROJECT 2 ====================-->
+                        <div class="projects__content swiper-slide">
+                            <img src="assets/img/project2.jpg" alt="proyecto 1 imagen" class="projects__img">
+
+                            <div>
+                                <span class="projects__subtitle">Website</span>
+                                <h1 class="projects__title">E-Commerce</h1>
+                                <a href="https://www.mercadolibre.com.ar/" target="_blank" class="projects__button">
+                                    Ver demo <i class="ri-arrow-right-line"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--==================== PROJECT 3 ====================-->
+                        <div class="projects__content swiper-slide">
+                            <img src="assets/img/project3.jpg" alt="proyecto 1 imagen" class="projects__img">
+
+                            <div>
+                                <span class="projects__subtitle">Website</span>
+                                <h1 class="projects__title">Blog</h1>
+                                <a href="https://es.wikipedia.org/wiki/Wikipedia:Portada" target="_blank"
+                                    class="projects__button">
+                                    Ver demo <i class="ri-arrow-right-line"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- SWIPER ARROWS -->
+                    <div class="swiper-button-next">
+                        <i class="ri-arrow-right-s-line"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="ri-arrow-left-s-line"></i>
+                    </div>
+
+                    <!-- SWIPER PAGINATION -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== CONTACT ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contacto</h2>
+            <span class="section__subtitle">ponte en contacto</span>
+            <div class="contact__container container grid section__border">
+                <div class="contact__content">
+                    <h3 class="contact__title">
+                        <i class="ri-chat-2-line"></i>Hablame
+                    </h3>
+
+                    <div class="contact__info">
+                        <div class="contact__data">
+                            <span class="contact__data-title">Email</span>
+                            <span class="contact__data-info">dev_js@example.com</span>
+                        </div>
+
+                        <div class="contact__data">
+                            <span class="contact__data-title">Whatsapp</span>
+                            <span class="contact__data-info">(495) 373-0837</span>
+                            <a href="https://web.whatsapp.com/" target="_blank" class="contact__button">
+                                envia un mensaje<i class="ri-whatsapp-line"></i>
+                            </a>
+                        </div>
+
+                        <div class="contact__data">
+                            <span class="contact__data-title">Messenger</span>
+                            <span class="contact__data-info">@devJS.fb123</span>
+                            <a href="https://www.facebook.com/" target="_blank" class="contact__button">
+                                escribeme<i class="ri-messenger-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact__content">
+                    <h3 class="contact__title">
+                        <i class="ri-send-plane-line"></i>describeme tu proyecto
+                    </h3>
+                    <form action="" method="post" class="contact__form" id="contact-form">
+                        <div class="contact__form-div">
+                            <label for="name" class="contact__form-tag">Names</label>
+                            <input type="text" name="user_name" required placeholder="escribe tu nombre completo"
+                                class="contact__form-input" id="contact-name">
+                        </div>
+
+                        <div class="contact__form-div">
+                            <label for="email" class="contact__form-tag">Mail</label>
+                            <input type="email" name="user_email" required placeholder="escribe tu email"
+                                class="contact__form-input" id="contact-email">
+                        </div>
+
+                        <div class="contact__form-div contact__form-area">
+                            <label for="message" class="contact__form-tag">Proyecto</label>
+                            <textarea name="user_project" required placeholder="escribe sobre tu proyecto"
+                                id="contact-project" class="contact__form-input"></textarea>
+                        </div>
+
+                        <button type="submit" class="contact__button" id="button">
+                            Enviar <i class="ri-mail-send-line"></i>
+                        </button>
+
+                    </form>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">José</h1>
+            <p>Frontend and Backend Developer</p>
+
+            <ul class="footer__list">
+                <li>
+                    <a href="#home" class="footer__link">inicio</a>
+                </li> 
+                
+                <li>
+                    <a href="#skills" class="footer__link">Habilidades</a>
+                </li> 
+
+                <li>
+                    <a href="#projects" class="footer__link">Proyectos</a>
+                </li>
+            </ul>
+
+            <ul class="footer__social">
+                <a href="https://ar.linkedin.com/" target="_blank" class="footer__social-link">
+                    <i class="ri-linkedin-box-fill"></i>
+                </a>
+
+                <a href="https://github.com/" target="_blank" class="footer__social-link">
+                    <i class="ri-github-fill"></i>
+                </a>
+
+                <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                    <i class="ri-instagram-fill"></i>
+                </a>
+            </ul>
+            
+            <span class="footer__copy">&#169; Copyright DevJS. All rights reserved</span>
+
+        </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== EMAIL JS ===============-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        emailjs.init('dYRZC0tmRHZhoNu7m')
+    </script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
